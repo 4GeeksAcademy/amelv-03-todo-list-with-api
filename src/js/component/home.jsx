@@ -1,8 +1,10 @@
-import React, {useState} from "react";
+import React, { useState, useEffect } from "react";
 
 
 //create your first component
 const Home = () => {
+
+
     const [todoList, setTodoList] = useState([])
     const [userInput, setUserInput] = useState("")
 
